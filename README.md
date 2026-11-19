@@ -1,4 +1,4 @@
-# Same problem, different words
+# ee-reasoning-robustness: same problem, different words
 
 Do language models give the same answer to the same engineering problem when it is worded differently?
 

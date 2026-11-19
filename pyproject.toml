@@ -1,5 +1,5 @@
 [project]
-name = "same-problem-different-words"
+name = "ee-reasoning-robustness"
 version = "0.1.0"
 description = "Answer-preserving rewordings of quantitative RF engineering problems, for testing LLM robustness"
 requires-python = ">=3.10"
