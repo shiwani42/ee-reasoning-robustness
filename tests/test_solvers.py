@@ -72,6 +72,6 @@ def test_wrong_hint_is_wrong():
 
 
 @pytest.mark.parametrize("text,val", [("so P = 33.0 dBm", 33.0), ("K ≈ 0.61", 0.61), ("C = 5.5 pF.", 5.5),
-                                      ("about 1.2 × 10^-3 W", 1.2e-3), ("−3.5 dB", -3.5), ("1,250 Ω", 1250.0)])
+                                      ("about 1.2 × 10^-3 W", 1.2e-3), ("−3.5 dB", -3.5), ("1,250 Ω", 1250.0), ("3.11:1", 3.11)])
 def test_parse(text, val):
     assert approx(parse_number(text), val)
