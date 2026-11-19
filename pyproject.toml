@@ -1,0 +1,12 @@
+[project]
+name = "same-problem-different-words"
+version = "0.1.0"
+description = "Answer-preserving rewordings of quantitative RF engineering problems, for testing LLM robustness"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
